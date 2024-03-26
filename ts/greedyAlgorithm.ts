@@ -51,7 +51,6 @@ while (listData.length > 0) {
       maxSet = tempSet
     }
   }
-  console.log('maxSet', maxSet)
   // 每次循环找出的符合条件的最大集合放入selectList中, 同时删除 listData 和该集合重复的元素
   if(maxKey) {
     selectList.push(maxKey)
